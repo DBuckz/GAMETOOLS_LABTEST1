@@ -525,7 +525,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myProfile
       value: 
-      objectReference: {fileID: 11400000, guid: 7b8b536d14fb73849ba149cf501eb5a5,
+      objectReference: {fileID: 11400000, guid: c2e8f8d92aff9194792fadbcd8cc9a28,
         type: 2}
     m_RemovedComponents:
     - {fileID: 9176510953282187120, guid: c7da5fde8d20b3947a523bd12a2a20ee, type: 3}

@@ -64,7 +64,17 @@ namespace GRIDCITY
             }
 
             //BUILD CITY WALLS - add your code below
-            
+            for(int i=-6;i<7; i++)
+            {
+                for(int j=-6;j<7;j++)
+                {
+                    if (j<-5 || j>5 || i<-5 || i>5)
+                    {
+                        int random = Random.Range(0, profileArray.Length);
+                        Instantiate(buildingPrefab, new Vector3(i, 0.01f, j), Quaternion.identity).GetComponent<DeluxeTowerBlock>().SetProfile(wallProfile);
+                    }
+                }
+            }
           
 
             //CITY BUILDINGS:

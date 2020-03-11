@@ -116,7 +116,7 @@ namespace GRIDCITY
                         if ((random < 5) && (!cityManager.CheckSlot(x, y + 1, z)))
                         {
                             cityManager.SetSlot(x, y + 1, z, true);
-                            child = Instantiate(treePrefab, transform.position + Vector3.up * 1.01f, Quaternion.identity, this.transform);
+                            child = Instantiate(treePrefab, transform.position + Vector3.forward * 1.01f, Quaternion.identity, this.transform);
                             int meshNum = myProfile.mainBlocks.Length;
                             int matNum = myProfile.mainMaterials.Length;
                             Debug.Log(child.GetComponents<TreeTowerBlock>().Length);
@@ -128,7 +128,7 @@ namespace GRIDCITY
                         if ((random < 5) && (!cityManager.CheckSlot(x, y + 1, z)))
                         {
                             cityManager.SetSlot(x, y + 1, z, true);
-                            child = Instantiate(treePrefab, transform.position + Vector3.up * 1.01f, Quaternion.identity, this.transform);
+                            child = Instantiate(treePrefab, transform.position + Vector3.right * 1.01f, Quaternion.identity, this.transform);
                             int meshNum = myProfile.mainBlocks.Length;
                             int matNum = myProfile.mainMaterials.Length;
                             Debug.Log(child.GetComponents<TreeTowerBlock>().Length);
@@ -140,7 +140,7 @@ namespace GRIDCITY
                         if ((random < 5) && (!cityManager.CheckSlot(x, y + 1, z)))
                         {
                             cityManager.SetSlot(x, y + 1, z, true);
-                            child = Instantiate(treePrefab, transform.position + Vector3.up * 1.01f, Quaternion.identity, this.transform);
+                            child = Instantiate(treePrefab, transform.position + Vector3.left * 1.01f, Quaternion.identity, this.transform);
                             int meshNum = myProfile.mainBlocks.Length;
                             int matNum = myProfile.mainMaterials.Length;
                             Debug.Log(child.GetComponents<TreeTowerBlock>().Length);
@@ -152,7 +152,7 @@ namespace GRIDCITY
                         if ((random < 5) && (!cityManager.CheckSlot(x, y + 1, z)))
                         {
                             cityManager.SetSlot(x, y + 1, z, true);
-                            child = Instantiate(treePrefab, transform.position + Vector3.up * 1.01f, Quaternion.identity, this.transform);
+                            child = Instantiate(treePrefab, transform.position + Vector3.back * 1.01f, Quaternion.identity, this.transform);
                             int meshNum = myProfile.mainBlocks.Length;
                             int matNum = myProfile.mainMaterials.Length;
                             Debug.Log(child.GetComponents<TreeTowerBlock>().Length);
@@ -166,7 +166,7 @@ namespace GRIDCITY
                         if ((random < 5) && (!cityManager.CheckSlot(x, y+1, z)))
                         {
                             cityManager.SetSlot(x, y + 1, z, true);
-                            child = Instantiate(treePrefab, transform.position + Vector3.up * 1.01f, Quaternion.identity, this.transform);
+                            child = Instantiate(treePrefab, transform.position + Vector3.back * 1.01f, Quaternion.identity, this.transform);
                             int meshNum = myProfile.mainBlocks.Length;
                             int matNum = myProfile.mainMaterials.Length;
                             Debug.Log(child.GetComponents<TreeTowerBlock>().Length);
